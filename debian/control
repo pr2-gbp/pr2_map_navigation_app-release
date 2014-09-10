@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-map-navigation-app
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), mongodb, ros-hydro-amcl, ros-hydro-catkin, ros-hydro-map-store, ros-hydro-pr2-machine, ros-hydro-pr2-navigation-config, ros-hydro-pr2-navigation-global, ros-hydro-pr2-navigation-perception, ros-hydro-pr2-navigation-teleop, ros-hydro-pr2-position-scripts, ros-hydro-tf, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/map_nav
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-map-navigation-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mongodb, ros-hydro-amcl, ros-hydro-map-store, ros-hydro-pr2-machine, ros-hydro-pr2-navigation-config, ros-hydro-pr2-navigation-global, ros-hydro-pr2-navigation-perception, ros-hydro-pr2-navigation-teleop, ros-hydro-pr2-position-scripts, ros-hydro-tf, ros-hydro-topic-tools
+Description: Map nav for the PR2.
