@@ -7,8 +7,8 @@ find_package(catkin REQUIRED COMPONENTS pr2_position_scripts pr2_navigation_tele
 #)
 
 catkin_package(
-    DEPENDS pr2_position_scripts pr2_navigation_teleop pr2_navigation_perception amcl pr2_machine pr2_navigation_global pr2_navigation_config tf mongodb topic_tools map_store
-    CATKIN_DEPENDS # TODO
+    DEPENDS
+    CATKIN_DEPENDS  pr2_position_scripts pr2_navigation_teleop pr2_navigation_perception amcl pr2_machine pr2_navigation_global pr2_navigation_config tf mongodb topic_tools map_store# TODO
     INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
 )
