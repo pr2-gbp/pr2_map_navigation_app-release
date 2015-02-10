@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-map-navigation-app
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), mongodb, ros-indigo-amcl, ros-indigo-catkin, ros-indigo-map-store, ros-indigo-pr2-machine, ros-indigo-pr2-navigation-config, ros-indigo-pr2-navigation-global, ros-indigo-pr2-navigation-perception, ros-indigo-pr2-navigation-teleop, ros-indigo-pr2-position-scripts, ros-indigo-tf, ros-indigo-topic-tools
+Homepage: http://ros.org/wiki/map_nav
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-map-navigation-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mongodb, ros-indigo-amcl, ros-indigo-map-store, ros-indigo-pr2-machine, ros-indigo-pr2-navigation-config, ros-indigo-pr2-navigation-global, ros-indigo-pr2-navigation-perception, ros-indigo-pr2-navigation-teleop, ros-indigo-pr2-position-scripts, ros-indigo-tf, ros-indigo-topic-tools
+Description: Map nav for the PR2.
